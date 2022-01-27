@@ -41,7 +41,7 @@ function Add-AADGroupMember {
         Install-Module -Name "Microsoft.Graph.Groups" -Repository PSGallery -Force -AllowClobber
 
     }
-    if (-Not(Get-Module -ListAvailable -Name "Microsoft.Graph.Users") {
+    if (-Not(Get-Module -ListAvailable -Name "Microsoft.Graph.Users")) {
 
         Install-Module -Name "Microsoft.Graph.Users" -Repository -PSGallery -Force -AllowClobber
 
