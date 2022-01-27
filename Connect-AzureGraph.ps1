@@ -9,7 +9,7 @@ function Connect-AzureGraph {
     [Parameter()]
     [Switch]$Cert,
     [Parameter()]
-    [Switch]$ClientSecret
+    [Switch]$ClientSecret,
     [Parameter()]
     [String]$Thumbprint,
     [Parameter()]
