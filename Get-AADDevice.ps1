@@ -78,7 +78,7 @@ function Get-AADDevice {
 		try {
 
 			#Listing AADDevice based on displayName
-			Write-Host "Lookingu p target..." -f Yellow
+			Write-Host "Looking up target..." -f Yellow
         	Get-MgDevice -All | where {$_.displayName -eq $Name}
 
 		}
